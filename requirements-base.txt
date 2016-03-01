@@ -1,0 +1,22 @@
+BeautifulSoup==3.2.0
+boto==2.39.0
+guppy==0.1.10
+ipython==3.2.1
+
+pika==0.9.14
+psycopg2==2.4.5
+pymongo==2.6.3
+
+raven==5.11.0
+requests==2.5.3
+
+setproctitle==1.0.1
+Twisted==11.1.0
+s3cmd==1.6.0
+
+# Expensive
+Pillow==2.8.2
+MySQL-python==1.2.5
+lxml==3.4.4
+nltk==2.0.5
+scikit-learn==0.13.1

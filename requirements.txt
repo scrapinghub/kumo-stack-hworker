@@ -1,0 +1,22 @@
+# Scrapy related packages
+w3lib==1.13.0
+queuelib==1.4.2
+Scrapy==1.0.5
+
+# Portia
+slybot==0.12.1
+scrapely==0.12.0
+
+# Scrapinghub
+hubstorage==0.22.0
+dateparser==0.3.2
+scrapinghub==1.7.0
+scrapylib==1.7.0
+scrapyjs==0.1.1
+# scrapy plugins
+scrapy-crawlera==1.1.0 
+https://github.com/scrapy-plugins/scrapy-dotpersistence/archive/4f65aaa.zip#egg=scrapy-dotpersistence
+https://github.com/scrapy-plugins/scrapy-pagestorage/archive/11442e1.zip#egg=scrapy-pagestorage
+
+# Scrapinghub Kumo contract
+https://github.com/scrapinghub/scrapinghub-entrypoint-scrapy/archive/b2c9489.zip#egg=scrapinghub-entrypoint-scrapy
