@@ -1,0 +1,12 @@
+#!/bin/bash
+IMAGE=${1:-scrapinghub/$APPNAME}
+TAGS=$(git tag --list 'v*' --points-at $DRONE_COMMIT)
+[[ $CI_BRANCH == master ]] && TAGS+=" latest"
+
+set -e
+docker login -e "$DOCKERHUB_EMAIL" -u "$DOCKERHUB_USERNAME" -p "$DOCKERHUB_PASSWORD"
+for tag in $TAGS; do
+    repo=$IMAGE:$tag
+    docker tag --force $APPIMAGE $repo
+    docker push $repo
+done
