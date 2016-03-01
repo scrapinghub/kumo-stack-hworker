@@ -2,6 +2,7 @@
 IMAGE=${1:-scrapinghub/$APPNAME}
 TAGS=$(git tag --list 'v*' --points-at $DRONE_COMMIT)
 [[ $CI_BRANCH == master ]] && TAGS+=" latest"
+[[ -n $TAGS ]] || exit 0
 
 set -e
 docker login -e "$DOCKERHUB_EMAIL" -u "$DOCKERHUB_USERNAME" -p "$DOCKERHUB_PASSWORD"
