@@ -6,6 +6,7 @@ ipython==3.2.1
 pika==0.9.14
 psycopg2==2.4.5
 pymongo==2.6.3
+chardet==2.3.0
 
 raven==5.11.0
 requests==2.5.3
