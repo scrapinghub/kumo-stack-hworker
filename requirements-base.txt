@@ -2,6 +2,7 @@ BeautifulSoup==3.2.0
 boto==2.39.0
 guppy==0.1.10
 ipython==3.2.1
+zope.interface==3.6.1
 
 pika==0.9.14
 psycopg2==2.4.5

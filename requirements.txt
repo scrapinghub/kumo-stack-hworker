@@ -9,9 +9,9 @@ scrapely==0.12.0
 
 # Scrapinghub
 hubstorage==0.22.0
-dateparser==0.3.2
+dateparser==0.3.4
 scrapinghub==1.7.0
-scrapylib==1.7.0
+scrapylib==1.6.0
 scrapyjs==0.1.1
 # scrapy plugins
 scrapy-crawlera==1.1.0 
