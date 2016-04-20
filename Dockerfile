@@ -17,6 +17,7 @@ RUN sed 's/main$/main universe/' -i /etc/apt/sources.list && \
         libffi-dev libssl-dev \
         libpcre3-dev libz-dev \
         libjpeg8-dev \
+        ghostscript \
         telnet vim htop strace ltrace iputils-ping curl wget lsof git libdb4.8-dev sudo \
         && \
     rm -rf /var/lib/apt/lists
