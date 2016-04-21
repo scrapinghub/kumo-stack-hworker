@@ -23,12 +23,16 @@ def load_eggs(eggs_path, main_egg_name):
         pypath += '%s:' % egg_path
         if os.path.basename(egg_path) == main_egg_name:
             main_egg_path = egg_path
+    env = {'PYTHONPATH': pypath}
     if not main_egg_path:
-        raise AttributeError('Project egg is not found')
+        print('Project egg is not found')
+        return env
     settings_module = activate_main_egg(main_egg_path)
     if not settings_module:
-        raise AttributeError('Project distribution is not found')
-    return {'PYTHONPATH': pypath, 'SCRAPY_SETTINGS_MODULE': settings_module}
+        print('Project distribution is not found')
+        return env
+    env['SCRAPY_SETTINGS_MODULE'] = settings_module
+    return env
 
 
 def activate_main_egg(eggpath):
