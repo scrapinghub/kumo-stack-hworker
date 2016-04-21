@@ -1,7 +1,8 @@
-v1.1.0 2016-04-20
+v1.1.0 2016-04-21
 =================
 
 - Bump Pillow to 2.9.0 due to bug python-pillow/Pillow#1816
+- Make a main egg optional in eggbased-entrypoint
 
 v1.0.3 2016-03-11
 =================
