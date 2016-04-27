@@ -15,8 +15,8 @@ scrapylib==1.7.0
 scrapyjs==0.1.1
 # scrapy plugins
 scrapy-crawlera==1.1.0 
-https://github.com/scrapy-plugins/scrapy-dotpersistence/archive/4f65aaa.zip#egg=scrapy-dotpersistence
-https://github.com/scrapy-plugins/scrapy-pagestorage/archive/11442e1.zip#egg=scrapy-pagestorage
+https://github.com/scrapy-plugins/scrapy-dotpersistence/archive/78783b7.zip#egg=scrapy-dotpersistence
+https://github.com/scrapy-plugins/scrapy-pagestorage/archive/160e694.zip#egg=scrapy-pagestorage
 
 # Scrapinghub Kumo contract
 https://github.com/scrapinghub/scrapinghub-entrypoint-scrapy/archive/b2c9489.zip#egg=scrapinghub-entrypoint-scrapy
