@@ -9,8 +9,7 @@ scrapely==0.12.0
 
 # Scrapinghub
 hubstorage==0.22.0
-# dateparser==0.3.4 replaced with newer commit
-https://github.com/scrapinghub/dateparser/archive/1223377.zip/#egg=dateparser
+dateparser==0.3.5
 scrapinghub==1.7.0
 scrapylib==1.7.0
 scrapyjs==0.1.1
