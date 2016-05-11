@@ -24,8 +24,9 @@ RUN sed 's/main$/main universe/' -i /etc/apt/sources.list && \
         && \
     rm -rf /var/lib/apt/lists
 
-# Needed for python to consider stdin/stdout as utf8
-RUN locale-gen en_US.UTF-8
+# en_US.UTF-8 is needed for python to consider stdin/stdout as utf8
+# other are custom to provide backward support with scrapy cloud 1.0
+RUN locale-gen en_US.UTF-8 de_DE.UTF-8 nl_NL.UTF-8 fr_FR.UTF-8
 # TERM needs to be set here for exec environments
 # LANG for locale
 # PIP_TIMEOUT so installation doesn't hang forever
