@@ -37,7 +37,7 @@ ENV TERM=xterm \
     PYTHONWARNINGS="ignore:A true SSLContext object is not available"
 
 ADD https://bootstrap.pypa.io/get-pip.py /get-pip.py
-RUN python /get-pip.py && pip install -U pip==7.1.2
+RUN python /get-pip.py && pip install -U pip==8.1.2
 COPY requirements-base-pre.txt /
 RUN pip install --no-cache-dir -r requirements-base-pre.txt
 COPY requirements-base.txt /
