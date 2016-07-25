@@ -20,4 +20,4 @@ scrapy-dotpersistence==0.2.0
 scrapy-pagestorage==0.1.0
 
 # Scrapinghub Kumo contract
-scrapinghub-entrypoint-scrapy==0.8.2
+scrapinghub-entrypoint-scrapy==0.8.3
