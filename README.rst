@@ -36,6 +36,10 @@ When you're going to release a new version of the stack, you should:
 
 3. Push the changes and the tag to the repo::
 
+    git push origin master <tag>
+
+  Example::
+
     git push origin master 20160731
 
   Tags should be pushed at the same time when pushing changes (or before it) because otherwise build will not be triggered and developer will be required to find the build in drone and trigger it manually again after tags are pushed.
