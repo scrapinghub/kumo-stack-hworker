@@ -47,6 +47,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN mkdir /app
 COPY addons_eggs/*.egg /app/
+RUN chown nobody:nogroup -R /app/*.egg
 
 ADD eggbased-entrypoint /usr/local/sbin/
 RUN chmod +x /usr/local/sbin/eggbased-entrypoint && \
