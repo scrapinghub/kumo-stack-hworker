@@ -45,6 +45,9 @@ RUN pip install --no-cache-dir -r requirements-base.txt
 COPY requirements.txt /
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN mkdir /app
+COPY addons_eggs/*.egg /app/
+
 ADD eggbased-entrypoint /usr/local/sbin/
 RUN chmod +x /usr/local/sbin/eggbased-entrypoint && \
     ln -s /usr/local/sbin/eggbased-entrypoint /usr/local/sbin/start-crawl
