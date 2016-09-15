@@ -19,5 +19,13 @@ scrapy-crawlera==1.1.0
 scrapy-dotpersistence==0.2.0
 scrapy-pagestorage==0.1.0
 
+# additional plugins
+monkeylearn==0.2.5
+
+# dependencies for spidermon egg
+six==1.9.0
+Jinja2==2.7.3
+slackclient==1.0.0
+
 # Scrapinghub Kumo contract
 scrapinghub-entrypoint-scrapy==0.8.7
