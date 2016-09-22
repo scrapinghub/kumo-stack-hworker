@@ -28,4 +28,4 @@ Jinja2==2.7.3
 slackclient==1.0.0
 
 # Scrapinghub Kumo contract
-scrapinghub-entrypoint-scrapy==0.8.7
+scrapinghub-entrypoint-scrapy==0.8.8
