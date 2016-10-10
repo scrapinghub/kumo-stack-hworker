@@ -25,7 +25,10 @@ monkeylearn==0.2.5
 # dependencies for spidermon egg
 six==1.9.0
 Jinja2==2.7.3
+jsonschema==2.5.1
+schematics==1.0.4
 slackclient==1.0.0
+python-slugify==1.2.1
 
 # Scrapinghub Kumo contract
 scrapinghub-entrypoint-scrapy==0.8.8
