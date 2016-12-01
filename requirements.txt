@@ -8,7 +8,7 @@ slybot==0.12.1
 scrapely==0.12.0
 
 # Scrapinghub
-hubstorage==0.22.0
+hubstorage==0.23.5
 dateparser==0.3.5
 scrapinghub==1.7.0
 scrapylib==1.7.0
@@ -32,4 +32,4 @@ slackclient==1.0.0
 python-slugify==1.2.1
 
 # Scrapinghub Kumo contract
-scrapinghub-entrypoint-scrapy==0.8.8
+scrapinghub-entrypoint-scrapy==0.8.10
