@@ -1,7 +1,8 @@
-=========================
-scrapinghub-stack-hworker
-=========================
+======================================
+[DEPRECATED] scrapinghub-stack-hworker
+======================================
 
+.. warning:: **This stack is deprecated.** Please use `scrapinghub-stack-scrapy <https://github.com/scrapinghub/scrapinghub-stack-scrapy/releases>`_ instead.
 Software stack fully compatible with Scrapy Cloud 1.0.
 
 Versioning
