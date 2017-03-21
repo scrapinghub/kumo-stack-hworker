@@ -32,4 +32,4 @@ slackclient==1.0.0
 python-slugify==1.2.1
 
 # Scrapinghub Kumo contract
-scrapinghub-entrypoint-scrapy==0.8.10
+scrapinghub-entrypoint-scrapy==0.9.0
