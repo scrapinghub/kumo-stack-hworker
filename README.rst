@@ -3,6 +3,7 @@
 ======================================
 
 .. warning:: **This stack is deprecated.** Please use `scrapinghub-stack-scrapy <https://github.com/scrapinghub/scrapinghub-stack-scrapy/releases>`_ instead.
+
 Software stack fully compatible with Scrapy Cloud 1.0.
 
 Versioning
@@ -10,9 +11,8 @@ Versioning
 
 Versioning is done in the following manner:
 
-- latest version of the stack marked with `latest`
-- each published version of the stack is also marked with `<release date>` tag
-- some versions are pinned, check CHANGELOG for changes
+- latest version of the stack marked with `latest` tag;
+- each published version of the stack is also marked with `<release date>` tag.
 
 All stack versions are listed correspond to a Docker image listed at:
 
